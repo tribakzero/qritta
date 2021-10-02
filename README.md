@@ -1,4 +1,4 @@
-# qritta
-Qrittā - QR Critters.
+# QRittā
+QRittā - QR Critters.
 
 WIP
