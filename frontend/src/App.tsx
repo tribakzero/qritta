@@ -6,7 +6,7 @@ function App() {
   const [ data, setData ] = useState({});
   useEffect(() => {
     // TO-DO: Make this conditional based on the env variable to see which environment it is running and change for localhost
-    fetch("https://qritta-backend.herokuapp.com/")
+    fetch("https://qritta-backend.herokuapp.com/health")
       .then(response => response.json())
       .then(data => setData(data))
       .catch(error => console.log(error));
